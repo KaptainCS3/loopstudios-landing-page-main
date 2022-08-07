@@ -1,0 +1,15 @@
+@import '_reset','_navBar', '_mobile', '_desktop', 'colors', '_products', '_fontFamilies', '_achievement', '_footer';
+
+// ## Colors
+
+// ### Primary
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
+$darkGray: hsl(0, 0%, 55%);
+$veryDarkGray: hsl(0, 0%, 41%);
+@mixin wrapper {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto 
+}
