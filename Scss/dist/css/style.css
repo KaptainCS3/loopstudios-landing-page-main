@@ -184,7 +184,6 @@ h3 {
     width: 100%;
     height: 100vh;
     top: 0;
-    background: url(/images/mobile/image-hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -211,17 +210,6 @@ h3 {
     margin: 0 auto;
     top: 460px;
     position: relative;
-  }
-  body .product .interaction {
-    width: 100%;
-    height: 236px;
-  }
-  body .product .interaction .image-interaction {
-    width: 100%;
-    height: 100%;
-    background: url(/images/mobile/image-interactive.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
   }
   body .product .describ {
     width: 100%;
@@ -255,13 +243,14 @@ h3 {
     z-index: 3;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     line-height: 35px;
   }
   body .achievement .achiev_wrapper .works h3 {
     width: 100%;
-    font-size: 1.8em;
+    font-size: 2em;
     text-align: center;
+    padding-left: 45px;
   }
   body .achievement .achiev_wrapper .works .view {
     width: 50%;
@@ -292,46 +281,6 @@ h3 {
     top: -75px;
     left: 8%;
     text-transform: uppercase;
-  }
-  body .achievement .deep-earth {
-    background: url(/images/mobile/image-deep-earth.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  body .achievement .night-arcade {
-    background: url(/images/mobile/image-night-arcade.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  body .achievement .soccer-team {
-    background: url(/images/mobile/image-soccer-team.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  body .achievement .grid {
-    background: url(/images/mobile/image-grid.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  body .achievement .vr {
-    background: url(/images/mobile/image-from-above.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  body .achievement .pocket {
-    background: url(/images/mobile/image-pocket-borealis.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  body .achievement .curiosity {
-    background: url(/images/mobile/image-curiosity.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  body .achievement .fisheye {
-    background: url(/images/mobile/image-fisheye.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
   }
   body .footer {
     position: absolute;
@@ -534,7 +483,6 @@ h3 {
     width: 100%;
     height: 100vh;
     top: -4%;
-    background: url(/images/desktop/image-hero.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -560,17 +508,6 @@ h3 {
     margin: 40px auto;
     top: 540px;
     position: relative;
-  }
-  body .product .interaction {
-    width: 100%;
-    height: 470px;
-  }
-  body .product .interaction .image-interaction {
-    width: 100%;
-    height: 100%;
-    background: url(/images/desktop/image-interactive.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
   }
   body .product .describ {
     width: 51%;
@@ -637,46 +574,6 @@ h3 {
     top: -85px;
     left: 15%;
     text-transform: uppercase;
-  }
-  body .achievement .deep-earth {
-    background: url(/images/desktop/image-deep-earth.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  body .achievement .night-arcade {
-    background: url(/images/desktop/image-night-arcade.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  body .achievement .soccer-team {
-    background: url(/images/desktop/image-soccer-team.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  body .achievement .grid {
-    background: url(/images/desktop/image-grid.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  body .achievement .vr {
-    background: url(/images/desktop/image-from-above.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  body .achievement .pocket {
-    background: url(/images/desktop/image-pocket-borealis.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  body .achievement .curiosity {
-    background: url(/images/desktop/image-curiosity.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  body .achievement .fisheye {
-    background: url(/images/desktop/image-fisheye.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   body .footer {
     position: absolute;

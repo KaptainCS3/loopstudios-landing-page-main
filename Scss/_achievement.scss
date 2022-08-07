@@ -47,47 +47,6 @@
     left: 15%;
     text-transform: uppercase;
 }
-
-.deep-earth{
-    background: url(/images/desktop/image-deep-earth.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.night-arcade{
-    background: url(/images/desktop/image-night-arcade.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.soccer-team{
-    background: url(/images/desktop/image-soccer-team.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.grid{
-    background: url(/images/desktop/image-grid.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.vr{
-    background: url(/images/desktop/image-from-above.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.pocket{
-    background: url(/images/desktop/image-pocket-borealis.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.curiosity{
-    background: url(/images/desktop/image-curiosity.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.fisheye{
-    background: url(/images/desktop/image-fisheye.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 }
 }
 
@@ -105,12 +64,14 @@
             z-index: 3;
             display: flex;
             justify-content: space-between;
-            margin-bottom: 80px;
+            margin-bottom: 50px;
             line-height: 35px;
             h3{
                 width: 100%;
-                font-size: 1.8em;
+                font-size: 2em;
                 text-align: center;
+                padding-left: 45px;
+                
             }
             .view{
                 width: 50%;
@@ -145,46 +106,5 @@
                     left: 8%;
                     text-transform: uppercase;
                 }
-
-                .deep-earth{
-                    background: url(/images/mobile/image-deep-earth.jpg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-                .night-arcade{
-                    background: url(/images/mobile/image-night-arcade.jpg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-                .soccer-team{
-                    background: url(/images/mobile/image-soccer-team.jpg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-                .grid{
-                    background: url(/images/mobile/image-grid.jpg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-                .vr{
-                    background: url(/images/mobile/image-from-above.jpg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-                .pocket{
-                    background: url(/images/mobile/image-pocket-borealis.jpg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-                .curiosity{
-                    background: url(/images/mobile/image-curiosity.jpg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                }
-                .fisheye{
-                    background: url(/images/mobile/image-fisheye.jpg);
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                    }
     }   
 }
